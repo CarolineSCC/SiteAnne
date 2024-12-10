@@ -1,0 +1,302 @@
+header {
+    background-color: #cc8efe; /* Cor de fundo */
+    padding: 20px 0;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens no centro */
+}
+
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center; /* Alinha os itens do container */
+}
+
+.logo {
+    height: 50px; /* Ajuste a altura conforme necessário */
+    margin-right: 20px; /* Espaçamento entre o logo e o menu */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens da lista em linha */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2c3e50; /* Cor dos links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+header {
+    background-color: #cc8efe; /* Cor de fundo */
+    padding: 20px 0;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens no centro */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center; /* Alinha os itens do container */
+}
+
+.logo {
+    height: 50px; /* Ajuste a altura conforme necessário */
+    margin-right: 20px; /* Espaçamento entre o logo e o menu */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens da lista em linha */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2c3e50; /* Cor dos links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+
+.social-icons {
+    margin-left: auto; /* Empurra os ícones para a direita */
+}
+
+.social-icons a {
+    margin-left: 15px; /* Espaçamento entre os ícones */
+}
+
+.icon {
+    height: 24px; /* Ajuste o tamanho do ícone */
+    width: 24px; /* Ajuste o tamanho do ícone */
+}
+
+
+
+footer {
+    background-color: #cc8efe; /* Cor de fundo do rodapé */
+    color: black; /* Cor do texto */
+    padding: 20px 0;
+}
+
+.container2{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Espaça os itens do rodapé */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    padding: 0 20px;
+}
+
+.footer-logo-img {
+    height: 50px; /* Ajuste a altura do logotipo */
+    margin-bottom: 10px;
+}
+
+.footer-links, .footer-contact, .footer-social {
+    flex: 1; /* Faz com que as seções ocupem espaço igual */
+    margin-right: 20px; /* Espaçamento entre as seções */
+}
+
+.footer-links h3, .footer-contact h3, .footer-social h3 {
+    margin: 0 0 10px 0; /* Margem inferior */
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0; /* Espaçamento entre os itens da lista */
+}
+
+.footer-links a, .footer-contact a {
+    text-decoration: none;
+    color: white; /* Cor dos links */
+}
+
+.footer-links a:hover, .footer-contact a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+
+.footer-social {
+    display: flex; /* Para alinhar os ícones em linha */
+    align-items: center; /* Alinha os ícones verticalmente */
+}
+
+.footer-social a {
+    margin-right: 10px; /* Espaçamento entre os ícones */
+}
+
+.icon {
+    height: 40px; /* Tamanho do ícone */
+    width: 40px; /* Tamanho do ícone */
+}
+
+/* Estilo do formulário */
+/* Estilo do formulário */
+.form-container {
+    max-width: 600px; /* Limitar a largura do formulário */
+    width: 100%; /* O formulário ocupa 100% da largura até o limite */
+    margin: 50px auto; /* Centraliza o formulário */
+    background-color: rgb(203, 147, 220); /* Cor de fundo roxa */
+    padding: 30px; /* Espaço interno aumentado */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+    text-align: center;
+}
+
+.form-container h1 {
+    font-size: 24px; /* Aumentei o tamanho do título */
+    color: #6c478f;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    font-size: 14px; /* Aumentei o tamanho do texto do label */
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+/* Estilo das caixas de entrada (inputs) */
+.form-container input {
+    width: calc(100% - 24px); /* Ajuste para que os campos de entrada não ultrapassem os limites */
+    padding: 12px; /* Aumentei o padding para maior conforto */
+    margin-bottom: 20px; /* Espaço entre os campos */
+    border: 1px solid #ccc; /* Borda suave */
+    border-radius: 8px; /* Bordas arredondadas */
+    font-size: 16px; /* Aumentei o tamanho da fonte */
+    background-color: white; /* Cor de fundo branca */
+    text-align: left; /* Alinha o texto à esquerda */
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura */
+}
+
+/* Estilo do botão */
+.form-container button {
+    background-color: #6c478f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Botões ocupam toda a largura */
+    margin-bottom: 10px; /* Espaço entre os botões */
+}
+
+.form-container button:hover {
+    background-color: #4b2f69;
+}
+
+/* Estilo do botão de reset */
+.form-container button[type="reset"] {
+    background-color: #ccc;
+    color: black;
+}
+
+.form-container button[type="reset"]:hover {
+    background-color: #bbb;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%; /* O formulário ocupa 90% da largura em telas menores */
+    }
+}
+
+@media (max-width: 576px) {
+    .form-container {
+        width: 100%; /* O formulário ocupa 100% da largura em telas muito pequenas */
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%; /* O formulário ocupa 90% da largura em telas menores */
+    }
+}
+
+@media (max-width: 576px) {
+    .form-container {
+        width: 100%; /* O formulário ocupa 100% da largura em telas muito pequenas */
+    }
+}
+
+
+
+
+  
+    
+/* Responsividade do cabeçalho */
+@media (max-width: 768px) {
+    .menu ul {
+      display: none; /* Esconde o menu */
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background-color: #cc8efe;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .menu ul.active {
+      display: flex; /* Mostra o menu ao clicar */
+    }
+  
+    .menu-toggle {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .social-icons {
+      display: none;
+    }
+  
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        height: 40px;
+    }
+
+    .footer-logo-img {
+        height: 40px;
+    }
+
+    .form-container {
+        width: 90%; /* Reduzir o formulário para dispositivos menores */
+    }
+}
